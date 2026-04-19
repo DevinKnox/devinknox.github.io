@@ -1,0 +1,90 @@
+﻿# 主页配置
+index_img: https://pic.netbian.com/uploads/allimg/260325/000649-1774368409ff79.jpg  # 主页顶部图片
+default_top_img: https://pic.netbian.com/uploads/allimg/260325/000649-1774368409ff79.jpg
+index_site_info_top: 300px  # 主页标题距离顶部
+
+nav:
+  display_title: true
+  display_post_title: true
+
+subtitle:
+  enable: true
+  effect: false
+  source: false
+  sub:
+    - '你本身就很有魅力，也很珍贵。这个世界一定有你能发光的地方。 -平光源-'
+
+inject:
+  head:
+    - <link rel="stylesheet" href="/css/copyright.css">
+    - <link rel="stylesheet" href="/css/darkbackground.css">
+    - <link rel="stylesheet" href="/css/footer.css">
+
+# 背景特效
+canvas_ribbon:
+  enable: true  # 是否开启彩带背景
+  size: 150     # 彩带密度
+  alpha: 0.6    # 彩带透明度
+
+# ------------ 首页顶部右侧目录 -----------------
+menu:
+  首页: / || fas fa-home
+  档案: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  类别: /categories/ || fas fa-folder-open
+  友链: /links/ || fas fa-link
+  关于: /about/ || fas fa-heart
+
+aside:
+  card_author:
+    # 屏蔽关注按钮
+    button:
+      enable: false
+  # 公告内容
+  card_announcement:
+    enable: true
+    content: ''
+
+# ------------ 代码块设置 -----------------
+code_blocks:
+  # 代码块主题: darker / pale night / light / ocean / false
+  theme: light
+  # 是否使用 Mac 风格
+  macStyle: true
+  # 代码块高度限制（单位: px）
+  height_limit: false
+  # 是否自动换行
+  word_wrap: false
+
+  # 工具栏
+  # 是否显示复制按钮
+  copy: true
+  # 是否显示语言标签
+  language: true
+  # true: 收缩代码块 | false: 展开代码块 | none: 展开代码块并隐藏按钮
+  shrink: false
+  # 是否显示全屏显示代码块按钮
+  fullpage: true
+
+# ------------ 版权信息 -----------------
+post_copyright:
+  # 是否启用版权声明
+  enable: true
+  # 是否进行文章 URL 解码
+  decode: true
+  # 作者链接
+  author_href:
+  # 许可证类型
+  license: CC BY-NC-SA 4.0
+  # 许可证链接
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+# ------------ 分享信息 -----------------
+share:
+  use:
+
+# ------------ 网站信息 -----------------
+busuanzi:
+  site_uv: false # 本站访客数
+  site_pv: false # 本站总浏览量
+  page_pv: true # 文章总数
