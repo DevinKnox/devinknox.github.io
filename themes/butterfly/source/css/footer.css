@@ -1,0 +1,40 @@
+#footer,
+#footer::before,
+#footer .footer-other {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+#footer {
+    box-shadow: none !important;
+}
+
+[data-theme="light"] #footer,
+[data-theme="light"] #footer .copyright,
+[data-theme="light"] #footer .framework-info,
+[data-theme="light"] #footer .footer_custom_text {
+    color: #5f6b7a !important;
+    text-shadow: none;
+}
+
+[data-theme="light"] #footer a {
+    color: #476f9c !important;
+    text-shadow: none;
+}
+
+[data-theme="light"] #footer a:hover {
+    color: #2f5f96 !important;
+}
+
+[data-theme="dark"] #footer,
+[data-theme="dark"] #footer .copyright,
+[data-theme="dark"] #footer .framework-info,
+[data-theme="dark"] #footer .footer_custom_text,
+[data-theme="dark"] #footer a {
+    color: #dbe2ec !important;
+    text-shadow: none;
+}
+
+[data-theme="dark"] #footer a:hover {
+    color: #9bd8ff !important;
+}
