@@ -10,7 +10,7 @@ nav:
 subtitle:
   enable: true
   effect: false
-  source: false
+  source: 3
   sub:
     - '你本身就很有魅力，也很珍贵。这个世界一定有你能发光的地方。 -平光源-'
 
