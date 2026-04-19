@@ -1,6 +1,6 @@
 ﻿# 主页配置
-index_img: https://pic.netbian.com/uploads/allimg/260325/000649-1774368409ff79.jpg  # 主页顶部图片
-default_top_img: https://pic.netbian.com/uploads/allimg/260325/000649-1774368409ff79.jpg
+index_img: /img/default_top_img.jpg  # 主页顶部图片，可支持在线连接
+default_top_img: /img/default_top_img.jpg # 文章页顶部图片，可支持在线连接
 index_site_info_top: 300px  # 主页标题距离顶部
 
 nav:
@@ -14,13 +14,26 @@ subtitle:
   sub:
     - '你本身就很有魅力，也很珍贵。这个世界一定有你能发光的地方。 -平光源-'
 
+favicon: /img/favicon.png
+
+pwa:
+  enable: true
+  apple_touch_icon: /img/apple-touch-icon.png
+  favicon_32_32: /img/favicon-32x32.png
+  favicon_16_16: /img/favicon-16x16.png
+
+# ------------ 头像 -----------------
+avatar:
+  img: /img/avatar.png
+  effect: false # 头像是否一直转圈
+
 inject:
   head:
     - <link rel="stylesheet" href="/css/copyright.css">
     - <link rel="stylesheet" href="/css/darkbackground.css">
     - <link rel="stylesheet" href="/css/footer.css">
 
-# 背景特效
+# ------------ 背景特效 -----------------
 canvas_ribbon:
   enable: true  # 是否开启彩带背景
   size: 150     # 彩带密度
