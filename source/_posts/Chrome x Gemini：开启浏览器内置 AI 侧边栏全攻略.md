@@ -1,7 +1,7 @@
 ---
 title: 🚀 Chrome x Gemini：开启浏览器内置 AI 侧边栏全攻略
 data: 2026/4/21 0:51
-tags: [Chrome]
+tags: [AI]
 ---
 
 Google 近期在 Chrome 浏览器中深度集成了 Gemini AI。通过侧边栏模式，你可以在不离开当前网页的情况下，直接调用 AI 进行总结、分析和创作。
