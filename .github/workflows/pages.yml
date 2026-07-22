@@ -31,7 +31,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          # Node版本: 20, 18.19, >=16.20.2, lts/Iron, lts/Hydrogen, *, latest, current, node
+          # Node版本: 20, 18.19, >=16.20.2
           # Ref: https://github.com/actions/setup-node#supported-version-syntax
           node-version: "22"
           cache: npm
